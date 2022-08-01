@@ -413,6 +413,8 @@ nav > ul li .course-nested-list-left {
 }
 .programs {
   display: flex;
+  width: 95%;
+  margin: 0 auto;
 }
 .programs .program-box {
   width: 33.33%;
@@ -479,4 +481,155 @@ nav > ul li .course-nested-list-left {
 .hvr-float-shadow:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
+}
+.partner-section {
+  width: 90%;
+  padding: 100px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.partner-section h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--green-color);
+}
+.partner-section ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.partner-section ul img {
+  height: 150px;
+}
+.main-program-box .slick-prev {
+  left: -40px !important;
+}
+.main-program-box .slick-next {
+  right: -40px !important;
+}
+footer {
+  /* background-image: url('./Assets/footer.jpg'); */
+  background-image: url('https://images.pexels.com/photos/6266519/pexels-photo-6266519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* filter: grayscale(100); */
+  background-attachment: fixed;
+  /* color: #fff; */
+}
+footer > div {
+  padding: 100px 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.linksBox {
+  display: flex;
+  position: relative;
+  z-index: 999;
+  gap: 2rem;
+}
+.logo-box {
+  width: 40%;
+}
+.products {
+  width: 20%;
+}
+.middleLinke {
+  width: 40%;
+}
+.middleLinke h2,
+.products h2 {
+  font-size: 24px;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #fff;
+  padding: 0 20px 10px 0;
+  display: inline-block;
+}
+.middleLinke h2:before,
+.products h2:before {
+  position: absolute;
+  content: '';
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  border-bottom: 5px solid var(--green-color);
+}
+.middleLinke div {
+  display: flex;
+}
+.middleLinke div ul {
+  width: 50%;
+}
+.middleLinke div ul li,
+.products ul li {
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 24px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.middleLinke div ul li:before,
+.products ul li:before {
+  transition: 0.3s;
+  position: absolute;
+  content: '';
+  left: 0;
+  transition: 0.3s;
+  top: 4px;
+  height: 8px;
+  width: 8px;
+  border: 2px solid var(--white-color);
+}
+.middleLinke div ul li:hover,
+.products ul li:hover {
+  color: var(--green-color);
+}
+.middleLinke div ul li:hover:before,
+.products ul li:hover:before {
+  border: 2px solid var(--green-color);
+}
+.logo-box {
+  display: flex;
+  flex-direction: column;
+  color: var(--white-color);
+}
+.logo-box > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-box > div ul i {
+  font-size: 24px;
+  transition: 0.2s;
+  margin-right: 12px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.logo-box > div ul i:hover {
+  color: var(--green-color);
+}
+.logo-box > ul {
+  margin-top: 30px;
+}
+.logo-box > ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo-box > ul li p {
+  line-height: 1.2;
+  padding-left: 16px;
+}
+.logo-box > ul li:hover i {
+  color: var(--green-color);
 }

@@ -37,7 +37,7 @@ $(document).ready(function () {
   //   Course
 
   $('.programs').slick({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
     slidesToShow: 3,
