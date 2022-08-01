@@ -31,10 +31,12 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header class="header">
         <div class="container-fluid">
           <div class="header-top-section">
-            <div class="brand-logo">LOGO</div>
+            <div class="brand-logo">
+              <img src="./Assets/head-logo.png" alt="logo" />
+            </div>
             <div class="right-section">
               <div class="search-box">
                 <input type="text" placeholder="What do you want to learn ?" />
@@ -92,7 +94,26 @@
           </nav>
         </div>
       </header>
-
+      <!-- our achiever works with -->
+      <div class="hack-companies">
+        <h2>Our Achiever’s Work with</h2>
+        <div class="hack-main-box">
+          <div class="hack-overlay">
+            <div class="container">
+              <ul class="hack-comp-name">
+                <img src="./Assets/a-c-1.png" alt="img" />
+                <img src="./Assets/a-c-2.png" alt="img" />
+                <img src="./Assets/a-c-3.png" alt="img" />
+                <img src="./Assets/a-c-4.png" alt="img" />
+                <img src="./Assets/a-c-5.png" alt="img" />
+                <img src="./Assets/a-c-6.png" alt="img" />
+                <img src="./Assets/a-c-7.png" alt="img" />
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hall of fame -->
       <div class="hall-of-fame">
         <h2>Hall of Fame</h2>
         <div class="main-box">
@@ -410,11 +431,11 @@
       <div class="what-you-will-learn">
         <h2>What You Will Learn</h2>
         <ul class="programs-name">
-          <li>Live Programs</li>
-          <li>Affordable Programs</li>
-          <li>Community Programs</li>
-          <li>One Neuron</li>
-          <li>Test Series</li>
+          <li id="live">Live Programs</li>
+          <li id="affordable">Affordable Programs</li>
+          <li id="community">Community Programs</li>
+          <li id="neuron">One Neuron</li>
+          <li id="test">Test Series</li>
         </ul>
 
         <div class="main-program-box">
@@ -423,7 +444,7 @@
             <p>Get Your Program with live "Instructor led" Learning</p>
           </div>
           <div class="programs">
-            <div class="program-box">
+            <div class="program-box" id="live">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/live-2.jpg" alt="program-banner" />
@@ -443,7 +464,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="live">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/live-3.jpg" alt="program-banner" />
@@ -463,7 +484,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="live">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/live-4.jpg" alt="program-banner" />
@@ -483,7 +504,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="live">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/live-5.jpg" alt="program-banner" />
@@ -503,7 +524,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="live">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/live-1.jpg" alt="program-banner" />
@@ -523,7 +544,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="live">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/live-6.jpg" alt="program-banner" />
@@ -543,7 +564,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="affordable">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/affordable-1.jpg" alt="program-banner" />
@@ -563,7 +584,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="affordable">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/affordable-2.jpg" alt="program-banner" />
@@ -583,7 +604,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="affordable">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/affordable-3.jpg" alt="program-banner" />
@@ -603,7 +624,87 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="affordable">
+              <div class="marginBox">
+                <div class="imageBox">
+                  <img src="./Assets/affordable-4.jpg" alt="program-banner" />
+                </div>
+                <div class="contentBox">
+                  <h2>Full Stack JavaScript Bootcamp</h2>
+                  <h3><span>Instructor</span> : Hitesh Choudhary</h3>
+                  <p>at just ₹17770</p>
+                  <div class="btn-div">
+                    <button class="hvr-grow-rotate hvr-float-shadow">
+                      View Details
+                    </button>
+                    <button class="hvr-grow-rotate hvr-float-shadow">
+                      Enroll Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-box" id="affordable">
+              <div class="marginBox">
+                <div class="imageBox">
+                  <img src="./Assets/affordable-1.jpg" alt="program-banner" />
+                </div>
+                <div class="contentBox">
+                  <h2>Full Stack JavaScript Bootcamp</h2>
+                  <h3><span>Instructor</span> : Hitesh Choudhary</h3>
+                  <p>at just ₹17770</p>
+                  <div class="btn-div">
+                    <button class="hvr-grow-rotate hvr-float-shadow">
+                      View Details
+                    </button>
+                    <button class="hvr-grow-rotate hvr-float-shadow">
+                      Enroll Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-box" id="affordable">
+              <div class="marginBox">
+                <div class="imageBox">
+                  <img src="./Assets/affordable-2.jpg" alt="program-banner" />
+                </div>
+                <div class="contentBox">
+                  <h2>Full Stack JavaScript Bootcamp</h2>
+                  <h3><span>Instructor</span> : Hitesh Choudhary</h3>
+                  <p>at just ₹17770</p>
+                  <div class="btn-div">
+                    <button class="hvr-grow-rotate hvr-float-shadow">
+                      View Details
+                    </button>
+                    <button class="hvr-grow-rotate hvr-float-shadow">
+                      Enroll Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-box" id="affordable">
+              <div class="marginBox">
+                <div class="imageBox">
+                  <img src="./Assets/affordable-3.jpg" alt="program-banner" />
+                </div>
+                <div class="contentBox">
+                  <h2>Full Stack JavaScript Bootcamp</h2>
+                  <h3><span>Instructor</span> : Hitesh Choudhary</h3>
+                  <p>at just ₹17770</p>
+                  <div class="btn-div">
+                    <button class="hvr-grow-rotate hvr-float-shadow">
+                      View Details
+                    </button>
+                    <button class="hvr-grow-rotate hvr-float-shadow">
+                      Enroll Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="program-box" id="affordable">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/affordable-4.jpg" alt="program-banner" />
@@ -624,7 +725,7 @@
               </div>
             </div>
 
-            <div class="program-box">
+            <div class="program-box" id="community">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/community-1.jpg" alt="program-banner" />
@@ -644,7 +745,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="community">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/community-2.jpg" alt="program-banner" />
@@ -664,7 +765,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="community">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/community-3.jpg" alt="program-banner" />
@@ -684,7 +785,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="community">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/community-4.jpg" alt="program-banner" />
@@ -704,7 +805,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="community">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/community-5.jpg" alt="program-banner" />
@@ -724,7 +825,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="community">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/community-6.jpg" alt="program-banner" />
@@ -744,7 +845,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="neuron">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/neuron-1.webp" alt="program-banner" />
@@ -764,7 +865,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="neuron">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/neuron-2.webp" alt="program-banner" />
@@ -784,7 +885,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="test">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/test-1.jpg" alt="program-banner" />
@@ -804,7 +905,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="test">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/test-2.jpg" alt="program-banner" />
@@ -824,7 +925,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="test">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/test-3.jpg" alt="program-banner" />
@@ -844,7 +945,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="test">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/test-4.jpg" alt="program-banner" />
@@ -864,7 +965,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box">
+            <div class="program-box" id="test">
               <div class="marginBox">
                 <div class="imageBox">
                   <img src="./Assets/test-5.jpg" alt="program-banner" />
@@ -891,7 +992,7 @@
       <div class="hack-companies">
         <h2>Hackathon Companies</h2>
         <div class="hack-main-box">
-          <div class="hack-overlay"> 
+          <div class="hack-overlay">
             <div class="container">
               <ul class="hack-comp-name">
                 <img src="./Assets/h-c-1.png" alt="img" />

@@ -1,4 +1,12 @@
 $(document).ready(function () {
+  $(window).scroll(function () {
+    var scrollValue = $(window).scrollTop();
+    if (scrollValue > 150) {
+      $('.header').addClass('sticky-navbar');
+    } else {
+      $('.header').removeClass('sticky-navbar');
+    }
+  });
   $('.main-box').slick({
     dots: true,
     infinite: true,
@@ -142,4 +150,29 @@ $(document).ready(function () {
       },
     ],
   });
+
+  //   $('.what-you-will-learn li#affordable').click(function () {
+  //     $('.program-box').css({ display: 'none' });
+  //     $('div#affordable').css({ display: 'block!important' });
+  //   });
+
+  //   $('#live').click(function () {
+  //     $('.program-box').css({ display: 'none' });
+  //     $('.programs #live').css({ display: 'block!important' });
+  //   });
+
+  //   $('#community').click(function () {
+  //     $('.program-box').css({ display: 'none' });
+  //     $('.programs #community').css({ display: 'block!important' });
+  //   });
+
+  //   $('#neuron').click(function () {
+  //     $('.program-box').css({ display: 'none' });
+  //     $('.programs #neuron').css({ display: 'block!important' });
+  //   });
+
+  //   $('#test').click(function () {
+  //     $('.program-box').css({ display: 'none' });
+  //     $('.programs #test').css({ display: 'block!important' });
+  //   });
 });
