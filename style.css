@@ -133,7 +133,6 @@ table {
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f0f8ff;
 }
 .wrapper {
   width: 100%;
@@ -222,6 +221,7 @@ nav > ul li .course-nested-list {
   display: none;
   transition: 0.5s;
   width: 0%;
+  z-index: 99;
   background-color: var(--white-color);
 }
 .ham-burger-menu {
@@ -258,4 +258,225 @@ nav > ul li:hover .course-nested-list {
 }
 nav > ul li .course-nested-list-left {
   left: -100%;
+}
+.hall-of-fame {
+  padding: 50px 0;
+}
+.hall-of-fame > h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--green-color);
+  text-align: center;
+}
+.hall-of-fame .main-box {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  margin-top: 50px;
+}
+.hall-of-fame .main-box .box {
+  width: 33.33%;
+}
+.hall-of-fame .main-box .box .marginBox {
+  position: relative;
+  margin: 0 20px;
+  overflow: hidden;
+  height: 100%;
+  width: 90%;
+}
+.hall-of-fame .main-box .box img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.hall-of-fame .main-box .box .hoverBox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity: 0;
+  left: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.hall-of-fame .main-box .box:hover .hoverBox {
+  display: block;
+  left: 0;
+  opacity: 1;
+}
+.hall-of-fame .main-box .box .description {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+}
+.hall-of-fame .main-box .box .description .socialLinks {
+  display: flex;
+  list-style-type: none;
+  padding: 20px 0;
+  opacity: 0.8;
+  justify-content: center;
+  background-color: var(--green-color);
+}
+.hall-of-fame .main-box .box .description .socialLinks li {
+  margin: 0 12px;
+}
+.box .description .socialLinks li i {
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.box .description .socialLinks li:hover i {
+  color: var(--white-color);
+  opacity: 0.8;
+}
+.box .description .about-person h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--green-color);
+  text-transform: uppercase;
+}
+.box .description .about-person h3 {
+  color: rgb(164, 164, 164);
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.box .description .about-person p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding: 0 20px;
+  line-height: 1.2;
+  font-size: 16px;
+  color: var(--white-color);
+}
+.slick-next:before,
+.slick-prev:before {
+  color: var(--green-color) !important;
+  font-size: 28px !important;
+}
+.slick-dots {
+  bottom: -50px !important;
+}
+.what-you-will-learn {
+  width: 90%;
+  padding: 50px 0;
+  margin: auto auto;
+}
+.what-you-will-learn > h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--green-color);
+  margin-bottom: 40px;
+}
+.what-you-will-learn > ul {
+  display: flex;
+  width: 100%;
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.what-you-will-learn > ul li {
+  border: 2px solid var(--green-color);
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: var(--green-color);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.what-you-will-learn > ul li:hover {
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+
+.main-program-box .heading h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--green-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-program-box .heading p {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+.programs {
+  display: flex;
+}
+.programs .program-box {
+  width: 33.33%;
+}
+.programs .program-box .marginBox {
+  padding: 20px;
+  width: 80%;
+  border-radius: 15px;
+  border: 1px solid rgb(239, 239, 239);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px 0px,
+    rgba(0, 0, 0, 0.05) -0px -5px 20px 0px;
+}
+
+.programs .program-box .imageBox img {
+  width: 100%;
+  display: block;
+}
+.programs .program-box .contentBox {
+  margin-top: 20px;
+  position: relative;
+}
+.programs .program-box .contentBox h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.programs .program-box .contentBox h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--green-color);
+}
+.programs .program-box .contentBox h3 span {
+  color: #000;
+}
+.programs .program-box .contentBox p {
+  font-weight: 600;
+  margin: 10px 0 30px 0;
+  font-size: 18px;
+}
+.programs .program-box .contentBox .btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hvr-float-shadow {
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 2px solid var(--green-color);
+  font-size: 18px;
+  background: var(--green-color);
+  font-weight: 600;
+  color: var(--white-color);
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  position: relative;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.hvr-float-shadow:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
