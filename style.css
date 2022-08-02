@@ -794,3 +794,85 @@ footer > div {
   width: 100%;
   z-index: 999;
 }
+.counterSection {
+  width: 100%;
+  padding: 50px 0;
+}
+.counterSection > h2 {
+  font-size: 48px;
+  color: var(--green-color);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.mainCounterBox {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.mainCounterBox .box {
+  width: 33.33%;
+  background-image: url(./Assets/icon-1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.mainCounterBox .box:nth-child(even) .overlay {
+  background: rgba(104, 178, 13, 0.9);
+}
+.mainCounterBox .box:nth-child(odd) .overlay {
+  background: rgba(17, 17, 17, 0.9);
+}
+.mainCounterBox .box h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--white-color);
+  opacity: 0.7;
+}
+.mainCounterBox .box h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  font-weight: 500;
+  color: var(--white-color);
+}
+.mainCounterBox .box .overlay {
+  text-align: center;
+  padding: 80px 50px;
+}
+.ourProductSection > h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--green-color);
+}
+.ourProductSection .mainBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ourProductSection .mainBox .box {
+  width: 33.33%;
+  margin-bottom: 20px;
+  transition: 0.5s;
+  border-bottom: 10px solid transparent;
+}
+.ourProductSection .mainBox .box:hover {
+  border-bottom: 10px solid var(--green-color);
+}
+.ourProductSection .mainBox .box .marginBox {
+  margin: 0 20px;
+  text-align: center;
+  padding: 50px 0;
+}
+.mainBox .box .marginBox h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--green-color);
+  margin-bottom: 20px;
+}
+.mainBox .box .marginBox p {
+  line-height: 1.3;
+}

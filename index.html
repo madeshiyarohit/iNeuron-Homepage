@@ -7,6 +7,7 @@
     <title>iNeuron || Homepage</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
@@ -30,6 +31,9 @@
     ></script>
   </head>
   <body>
+    <script src="/path/to/cdn/jquery.slim.min.js"></script>
+
+    <script src="/path/to/countMe.min.js"></script>
     <div class="wrapper">
       <header class="header">
         <div class="container-fluid">
@@ -94,6 +98,32 @@
           </nav>
         </div>
       </header>
+      <!-- Counter Section -->
+      <div class="counterSection">
+        <h2>“Pure Hardwork, No Shortcuts!”</h2>
+        <div class="container">
+          <div class="mainCounterBox">
+            <div class="box">
+              <div class="overlay">
+                <h2 id="counter">400+</h2>
+                <h3>Different Courses</h3>
+              </div>
+            </div>
+            <div class="box">
+              <div class="overlay">
+                <h2 id="counter">400000+</h2>
+                <h3>Students Enrolled</h3>
+              </div>
+            </div>
+            <div class="box">
+              <div class="overlay">
+                <h2 id="counter">10000+</h2>
+                <h3>Successful Transition</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- our achiever works with -->
       <div class="hack-companies">
         <h2>Our Achiever’s Work with</h2>
@@ -564,26 +594,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-box" class="affordable">
-              <div class="marginBox">
-                <div class="imageBox">
-                  <img src="./Assets/affordable-1.jpg" alt="program-banner" />
-                </div>
-                <div class="contentBox">
-                  <h2>Full Stack JavaScript Bootcamp</h2>
-                  <h3><span>Instructor</span> : Hitesh Choudhary</h3>
-                  <p>at just ₹17770</p>
-                  <div class="btn-div">
-                    <button class="hvr-grow-rotate hvr-float-shadow">
-                      View Details
-                    </button>
-                    <button class="hvr-grow-rotate hvr-float-shadow">
-                      Enroll Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             <div class="program-box affordable">
               <div class="marginBox">
                 <div class="imageBox">
@@ -644,26 +655,7 @@
                 </div>
               </div>
             </div>
-            <div class="program-boxaffordable">
-              <div class="marginBox">
-                <div class="imageBox">
-                  <img src="./Assets/affordable-1.jpg" alt="program-banner" />
-                </div>
-                <div class="contentBox">
-                  <h2>Full Stack JavaScript Bootcamp</h2>
-                  <h3><span>Instructor</span> : Hitesh Choudhary</h3>
-                  <p>at just ₹17770</p>
-                  <div class="btn-div">
-                    <button class="hvr-grow-rotate hvr-float-shadow">
-                      View Details
-                    </button>
-                    <button class="hvr-grow-rotate hvr-float-shadow">
-                      Enroll Now
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             <div class="program-box" id="affordable">
               <div class="marginBox">
                 <div class="imageBox">
@@ -1007,6 +999,61 @@
           </div>
         </div>
       </div>
+      <!-- Product section -->
+      <iv class="ourProductSection">
+        <h2>Our Products</h2>
+        <div class="container">
+          <div class="mainBox">
+            <div class="box">
+              <div class="marginBox">
+                <img src="./Assets/Job Portal.svg" alt="Img" />
+                <h2>Job Portal</h2>
+                <p>
+                  Use exceptional templates for a stand-out resume minus the
+                  sign up process.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="marginBox">
+                <img src="./Assets/Internship portal.svg" alt="Img" />
+                <h2>Intership Portal</h2>
+                <p>
+                  iNeuron's self-paced internship portal prioritises hands-on
+                  training with 570+ internship projects.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="marginBox">
+                <img src="./Assets/Become an affiliate.svg" alt="Img" />
+                <h2>Become An Affiliate</h2>
+                <p>
+                  Explore affiliate marketing opportunities with iNeuron and
+                  attain financial frredom.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="marginBox">
+                <img src="./Assets/Hall of fame.svg" alt="Img" />
+                <h2>Hall of Fame</h2>
+                <p>
+                  Our student placements and 10+ career transitions speak
+                  volumes about our courses.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="marginBox">
+                <img src="./Assets/InBlog.svg" alt="Img" />
+                <h2>In Blog</h2>
+                <p>Explore all you want about your favourite courses.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </iv>
       <!-- Our Teachers -->
       <div class="teacher-section">
         <h2>Tech Avengers</h2>
@@ -1219,6 +1266,7 @@
     </div>
 
     <script src="main.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   </body>
 </html>
