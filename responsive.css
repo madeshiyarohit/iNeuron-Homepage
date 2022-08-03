@@ -9,3 +9,265 @@
     display: block;
   }
 }
+
+@media only screen and (max-width: 1100px) {
+  .mainCounterBox .box h2 {
+    font-size: 32px;
+  }
+  .mainCounterBox .box h3 {
+    font-size: 16px;
+  }
+  .ih-item.square.effect6 .info h3 {
+    font-size: 18px !important;
+  }
+  .ih-item.square.effect6 .info p {
+    font-size: 14px !important;
+  }
+  .techSocialLinks i {
+    margin: 0 5px;
+  }
+  .linksBox {
+    flex-wrap: wrap;
+  }
+  .logo-box {
+    width: 100%;
+  }
+  .middleLinke {
+    width: 50%;
+  }
+  .products {
+    width: 44%;
+  }
+  .hack-companies {
+    padding: 50px 0;
+  }
+  footer > div {
+    padding: 80px 0 50px 0;
+  }
+  .mainCounterBox .box {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  .mainCounterBox {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .what-you-will-learn > ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .what-you-will-learn > ul li {
+    border: 2px solid var(--green-color);
+    padding: 8px 0px;
+    border-radius: 5px;
+    color: var(--green-color);
+    transition: 0.5s;
+    width: 30%;
+    cursor: pointer;
+    text-align: center;
+    margin: 12px 5px;
+  }
+  .box .description .about-person p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .box .description .about-person h2 {
+    font-size: 24px;
+  }
+  .hack-companies h2 {
+    margin-bottom: 75px;
+  }
+  .hack-companies h2 {
+    padding: 0;
+  }
+  .counterSection {
+    padding: 50px 0 0 0;
+  }
+  .hall-of-fame {
+    padding: 0 0 50px 0;
+  }
+  .counterSection > h2,
+  .hack-companies h2 {
+    margin-bottom: 50px;
+  }
+  .partner-section {
+    padding: 50px 0;
+  }
+  .mainCounterBox .box h2 {
+    font-size: 48px;
+  }
+  .mainCounterBox .box h3 {
+    font-size: 20px;
+  }
+  .counterSection > h2 {
+    font-size: 36px;
+  }
+  .hack-companies h2,
+  .hall-of-fame > h2,
+  .what-you-will-learn > h2,
+  .ourProductSection > h2,
+  .teacher-section h2,
+  .partner-section h2 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .ourProductSection .mainBox .box {
+    width: 50%;
+  }
+  .search-box {
+    display: none;
+  }
+  .hack-overlay {
+    padding: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .partner-section ul {
+    flex-wrap: wrap;
+  }
+  .partner-section ul li {
+    width: 33.33%;
+  }
+
+  .middleLinke {
+    width: 60%;
+  }
+  .products {
+    width: 30%;
+  }
+  .what-you-will-learn > ul li {
+    width: 45%;
+  }
+  .mainCounterBox .box {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .hvr-float-shadow {
+    font-size: 14px;
+  }
+  .programs .program-box .contentBox h2 {
+    font-size: 18px;
+  }
+  .programs .program-box .contentBox h3,
+  .programs .program-box .contentBox p {
+    font-size: 14px;
+  }
+  .box .description .socialLinks li i {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .programs .program-box .marginBox {
+    margin: 0 auto;
+  }
+  .middleLinke,
+  .products {
+    width: 100%;
+  }
+  .main-program-box .slick-next {
+    right: -20px !important;
+  }
+  .main-program-box .slick-prev {
+    left: -25px !important;
+  }
+
+  .hall-of-fame .main-box .slick-next {
+    right: -20px !important;
+  }
+  .hall-of-fame .main-box .slick-prev {
+    left: -25px !important;
+  }
+
+  .mainTeacherBox .slick-next {
+    right: -20px !important;
+  }
+  .mainTeacherBox .slick-prev {
+    left: -25px !important;
+  }
+  .mainCounterBox .box h2 {
+    font-size: 40px;
+  }
+  .counterSection > h2 {
+    font-size: 28px;
+  }
+  .hack-companies h2,
+  .hall-of-fame > h2,
+  .what-you-will-learn > h2,
+  .ourProductSection > h2,
+  .teacher-section h2,
+  .partner-section h2 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .mainCounterBox .box {
+    width: 100%;
+  }
+  .box .description .socialLinks li i {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .partner-section ul li {
+    width: 50%;
+  }
+  .partner-section ul li {
+    width: 50%;
+  }
+  .ourProductSection .mainBox .box {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .right-section button {
+    display: none;
+  }
+  .hack-companies h2,
+  .hall-of-fame > h2,
+  .what-you-will-learn > h2,
+  .ourProductSection > h2,
+  .teacher-section h2,
+  .partner-section h2 {
+    font-size: 24px;
+  }
+  .what-you-will-learn > ul li {
+    width: 90%;
+  }
+
+  .main-program-box .slick-next {
+    right: -20px !important;
+  }
+  .main-program-box .slick-prev {
+    left: -25px !important;
+  }
+
+  .hall-of-fame .main-box .slick-next {
+    right: -10px !important;
+  }
+  .hall-of-fame .main-box .slick-prev {
+    left: -10px !important;
+  }
+
+  .mainTeacherBox .slick-next {
+    right: -10px !important;
+  }
+  .mainTeacherBox .slick-prev {
+    left: -10px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .middleLinke div ul {
+    width: 100%;
+  }
+  .middleLinke div {
+    flex-wrap: wrap;
+  }
+  .logo-box > div img {
+    height: 40px !important;
+  }
+}

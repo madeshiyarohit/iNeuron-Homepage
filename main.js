@@ -8,7 +8,7 @@ $(document).ready(function () {
     }
   });
   $('.main-box').slick({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
     slidesToShow: 3,
@@ -19,21 +19,21 @@ $(document).ready(function () {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -54,28 +54,28 @@ $(document).ready(function () {
     autoplaySpeed: 2000,
     responsive: [
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
+        breakpoint: 1260,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
+      // {
+      //   breakpoint: 480,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1,
+      //   },
+      // },
     ],
   });
 
@@ -99,14 +99,14 @@ $(document).ready(function () {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 900,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 525,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -131,7 +131,7 @@ $(document).ready(function () {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
