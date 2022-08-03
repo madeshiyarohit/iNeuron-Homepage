@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(window).scroll(function () {
-    var scrollValue = $(window).scrollTop();
+    let scrollValue = $(window).scrollTop();
     if (scrollValue > 150) {
       $('.header').addClass('sticky-navbar');
     } else {
@@ -42,8 +42,6 @@ $(document).ready(function () {
     ],
   });
 
-  //   Course
-
   $('.programs').slick({
     dots: false,
     infinite: true,
@@ -69,17 +67,9 @@ $(document).ready(function () {
           slidesToScroll: 1,
         },
       },
-      // {
-      //   breakpoint: 480,
-      //   settings: {
-      //     slidesToShow: 1,
-      //     slidesToScroll: 1,
-      //   },
-      // },
     ],
   });
 
-  //   Teacher Section
   $('.mainTeacherBox').slick({
     dots: false,
     infinite: true,
@@ -115,7 +105,6 @@ $(document).ready(function () {
     ],
   });
 
-  //   Hack companies
   $('.hack-comp-name').slick({
     dots: false,
     infinite: true,

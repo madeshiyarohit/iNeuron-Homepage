@@ -303,6 +303,7 @@ nav > ul li .course-nested-list-left {
   top: 0;
   opacity: 0;
   left: 0;
+  transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -989,4 +990,47 @@ footer > div {
 }
 .sidenav .search-box img {
   background-color: var(--green-color);
+}
+.neuron-intro .mainBox {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
+.neuron-intro .mainBox .leftBox,
+.neuron-intro .mainBox .rightBox {
+  width: 50%;
+}
+.neuron-intro .mainBox .rightBox .imageBox {
+  width: 100%;
+}
+
+.neuron-intro .mainBox .rightBox .imageBox img {
+  width: 100%;
+  display: block;
+}
+.neuron-intro .mainBox .leftBox .contentBox {
+  width: 80%;
+}
+.neuron-intro .mainBox .leftBox .contentBox h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  color: var(--black-color-shade);
+}
+.neuron-intro .mainBox .leftBox .contentBox h2 {
+  font-size: 36px;
+
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--green-color);
+}
+.neuron-intro .mainBox .leftBox .contentBox p {
+  line-height: 1.4;
+  color: var(--black-color-shade);
+}
+.neuron-intro {
+  padding: 50px 0;
 }
