@@ -31,6 +31,38 @@
     ></script>
   </head>
   <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="search-box">
+        <input type="text" placeholder="What do you want to learn ?" />
+      </div>
+      <div class="btnBox">
+        <button class="signup-btn">Sign Up</button>
+        <button class="signin-btn">Sign In</button>
+      </div>
+
+      <ul>
+        <li>
+          <a class="have-nested-nav"
+            >Courses <i class="fas fa-angle-down" aria-hidden="true"></i
+          ></a>
+        </li>
+
+        <li><a>One Neuron</a></li>
+        <li><a>Job Portal</a></li>
+        <li><a>Intership Portal</a></li>
+        <li><a>Become an Affiliate</a></li>
+        <li><a>Hall of Fame </a></li>
+        <li><a>Blog</a></li>
+        <li>
+          <a class="have-nested-nav"
+            >Company <i class="fas fa-angle-down" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
     <div class="wrapper">
       <header class="header">
         <div class="container-fluid">
@@ -46,7 +78,11 @@
               <button class="signup-btn">Sign Up</button>
               <button class="signin-btn">Sign In</button>
               <div class="ham-burger-menu">
-                <i class="fas fa-bars" aria-hidden="true"></i>
+                <i
+                  class="fas fa-bars"
+                  aria-hidden="true"
+                  onclick="openNav()"
+                ></i>
               </div>
             </div>
           </div>
@@ -1274,6 +1310,15 @@
         </div>
       </footer>
     </div>
+    <script>
+      function openNav() {
+        document.getElementById('mySidenav').style.width = '250px';
+      }
+
+      function closeNav() {
+        document.getElementById('mySidenav').style.width = '0';
+      }
+    </script>
 
     <script src="main.js"></script>
 
